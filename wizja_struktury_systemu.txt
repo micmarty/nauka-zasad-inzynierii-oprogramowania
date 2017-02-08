@@ -137,7 +137,27 @@ Wyk³ad 01b Wizja Systemu
 
 	#12
 	{
-		
+		Podzia³ wymagañ: Funkjonalne, Jakoœciowe(pozafunkcjonalne) i Ograniczenia
+
+		Funkcjonalne -> to ca³kiem oczywiste, 
+			funkcje które musi udostêpniaæ u¿ytkownikom, co system potrafi
+
+		Ograniczenia -> regu³y narzucone z góry:
+			- technologia
+			- bud¿et
+			- czas
+			- sposoby realizacji, wdro¿enia
+
+		6. Wymagania jakoœciowe(pozafunkcjonalne):
+			- security - gwarancja odpornoœci na ataki z zewn¹trz
+			- safety - system nie zagrozi samemu sobie, ani otoczeniu
+			- przenoœnoœæ/mobilnoœæ - inne platformy
+			- elastycznoœæ, czyli mo¿liwoœæ rozbudowy w przysz³oœci
+			- konfigurowalnoœæ
+			- niezawodnoœæ - brak krytycznych b³edów
+			- dostêpnoœæ - brak przerw w pracy
+			- wydajnoœæ
+			- interfejs u¿ytkownika - wygoda i intuicyjnoœæ obs³ugi
 	}
 
 
