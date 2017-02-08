@@ -1,0 +1,144 @@
+Wyk³ad 01b Wizja Systemu
+{
+	#2
+	{
+		Cele analizy biznesowej i systemowej:
+
+		- zrozumienie tzw. obszaru problemowego, 
+		czyli organizacji i procesów gdzie bêdzie wprowadzany sytem
+
+		- identyfikacja i wyspecifikowanie wymagañ do tego systemu
+
+		- opisanie obszaru problemowego przy u¿yciu modeli(ró¿nych)
+	}
+
+	#3
+	{
+		Czym jest dokument za³o¿eñ wstêpnych?
+
+		To taka wizja systemu, pierwotna, ogólnikowe okreœlenie
+		obszaru problemowego, co bêdziemy informatyzowaæ i w jakim zakresie
+
+		ALE jest to sformalizowane w pewien sposób(ma strukturê dokumentu)
+
+		Jest mniej kompletne w szczegó³y ni¿:
+		- Studium Wykonalnoœci (Feasibility Study) 
+			-> mierzy potencja³, analiza rynkowa, rokowania, analiza ekonomiczna
+
+		- Specyfikacja Wymagañ Systemowych(System Requirements Specification)
+
+		- SIWZ(Specyfikacja Istotnych Warunków Zamówienia )
+			-> dotyczy zamówieñ publicznych i przetargów
+	}
+
+	#4{
+		Struktura Wizji Systemu:
+
+		1. Opis organizacji dla której wykonujemy system
+		2. Udzia³owcy(interesariusze)
+		3. Cele systemu
+		4. Kontekst - u¿ytkownicy i inne systemy, które trzeba wzi¹æ pod wzgl¹d
+		5. Zakres funkcjonalnoœci
+		6. Wymagania jakoœciowe
+		7. Ograniczenia
+
+		Ka¿dy punkt to narzucona struktura
+
+		TODO -> zapamiêtaæ jako 3 1 3 
+	}
+
+	#5
+	{
+		1. Opis organizacji:
+			(jest opisem dziedziny problemowej)
+
+			- Zawiera dane liczbowe
+			(	
+				ilosc pracownikow, 
+				profil dzia³alnoœci, 
+				procesy, 
+				powi¹zania z innymi organizacjami
+			)
+
+			- Jaki jest rodzaj dzia³alnoœci (PKD)
+
+			- Struktura orgaznizacji, jaka jest hierarchia, obowi¹zki
+
+			- Zauwa¿enie problemów aktualnego funkcjonowania, 
+				które nasz system wyeliminuje lub ograniczy
+
+			- Ogólna koncepcja: co i jak?
+	}
+
+	#7-8
+	{
+		Udzia³owiec = interesariusz = stakeholder:
+
+			To taki podmiot, który ma uzasadnione prawy wywierania wp³ywu na system
+			Jest Ÿrdód³em wymagañ
+
+		2. Udzia³owcy:
+		- przyszli userzy
+		- klienci
+		- inne systemy, wspó³pracuj¹ce z powstaj¹cym
+		- prawo, przepisy bran¿owe
+		- grupy nacisku: zwi¹zki zawodowe
+
+		np. Kasjer oczekuje, ¿e system ochroni go przed pope³nieniem b³edu,
+		co nie doprowadzi do systuacji, ze jest ci¹gniêty do odpowiedzialnosci
+
+
+		Adnotacja:
+		Punky widzenia s¹ zwi¹zane z:
+		- innymi systemami (do czego s¹ przyzwyczajeni)
+		- wiedza dziedzinowa pracowników
+		- regulacje odgórne, prawne
+	}
+
+	#9-10
+	{
+		3. Cele systemu (biznesowe) -> po co jest ten system?
+
+		Jakie korzyœci osi¹gnie klient(odbiorca systemu) po wdro¿eniu:
+		- zwiêkszenie zysków
+		- rozszedzenie udzia³ów  w rynku
+		- tañsze zarz¹dzanie
+		- czas reakcji
+		
+		Cele nale¿y formu³owaæ MIERZALNIE czyli:
+		- O ile obni¿ymy koszty?
+		- Ile procent przyspieszym?
+		itd.
+
+	}
+
+	#11
+	{
+		4. Kontekst systemu
+
+		Sk³ada siê na dwie ga³êzie:
+
+		+ U¿ytkownicy i to jak funkcjonuj¹:
+			- jakiego maj¹ skilla
+			- czy bêd¹ potrzebowali pomocy
+			- jakie maj¹ przyzwyczajenia
+			- w jakich warunkach pracuj¹
+			- egzotyki: czy s¹ niepe³nosprawni, cudzoziemcy, starcy, ma³olaty itd.
+
+		+ Inne systemy, z którymi nasz bêdzie wspó³pracowa³:
+			- jak siê ze sob¹ maj¹ zazêbiaæ(w jakim stopniu) - interfejs
+			- w jakim formacie s¹ wspó³dzielone dane
+			- jakie funkcje udostêpniamy a z jakich korzystamy
+	}
+
+	{	
+		5. Zakres funkcjonalnoœci
+	}
+
+	#12
+	{
+		
+	}
+
+
+}
