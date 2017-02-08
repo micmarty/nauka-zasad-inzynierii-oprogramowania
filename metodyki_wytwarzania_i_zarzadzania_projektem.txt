@@ -1,0 +1,77 @@
+14 Metodyki
+{
+	#2
+	{
+		Pojêcia:
+		+ Model cyklu ¿ycia/model wytwarzania
+			- OGÓLNA METODA
+
+			- organizuje proces wytwarzania systemu
+			- dzieli go na etapy
+			- ustanawia granice/kryteria bycia na danym etapie
+			- mo¿e sugerowaæ poprawne praktyki wykonania
+
+			Po ludzku:
+			Trzyma w ryzach projekt, ustanawia jakie bêd¹ etapy
+			i co ka¿dy etap musi zrobiæ, by przejœæ do nastêpnego
+
+			Przyk³ady:
+			* model kaskadowy/wodospadowy/klasyczny
+			* model V
+			* model przyrostowy
+
+
+		+ Metodyka
+			- KONKRETNA METODA
+
+			- bazuje na modelach wytwarzania(na 1 lub kilku)
+			- szczegó³owo definiuje etapy itd.
+			- zwykle jest promowana przez jak¹œ instytucjê albo autora
+
+			- w swojej KONKRETNOŒCI zawiera:
+				* zadania w ekipie
+				* dobre praktyki
+				* role ludzi
+				* jak siê komunikuj¹
+
+			Przyk³ady:
+			* PRINCE2
+			* Scrum
+			* Rational Unified Process(RUP)
+	}
+
+	#4
+	{
+		Dzia³ania w projekcie informatycznym:
+		2 ga³êzie:
+
+		(to ma w sumie sens)
+		+ dzia³ania techniczne:
+			- IW
+			- Projektowanie
+			- Implementacja
+			- Testowanie
+			- Utrzymanie
+			- Modyfikacje, dodawanie funkcjonalnoœci
+			- Wybór narzêdzi i œrodowiska
+
+		(trochê ciê¿ej zapamiêtaæ, ale nadal sensowne)
+		+ dzia³ania zarz¹dcze:
+			- planowanie
+			- zarz¹dzanie bud¿etem, wymaganiami, ludŸmi(motywowanie, dobór, dawanie zadañ)
+			- komunikacja z pracownikami, klientem
+			- ocenianie, zapewnienie o jakoœci produktu
+
+	}
+
+	#5
+	{
+		Elementy procesu w metodyce -> obrazek za³¹cznik nr 100
+
+		Co		(activities)
+		Jak		(guidelines)
+		Kto		(roles)
+		Produkt	(artifact)
+
+	}
+}
