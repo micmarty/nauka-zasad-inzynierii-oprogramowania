@@ -133,20 +133,22 @@ Wyk³ad 01b Wizja Systemu
 
 	{	
 		5. Zakres funkcjonalnoœci
+
+		Funkcjonalne -> to ca³kiem oczywiste, 
+			funkcje które musi udostêpniaæ u¿ytkownikom, co system potrafi
+	
+		Mo¿na pos³u¿yæ siê ogólnikami:
+
+		Lekarz:
+		- odczyt pelnej zawartosci karty pacjenta
+		- zapis zlecenia podania leków
 	}
 
 	#12
 	{
 		Podzia³ wymagañ: Funkjonalne, Jakoœciowe(pozafunkcjonalne) i Ograniczenia
 
-		Funkcjonalne -> to ca³kiem oczywiste, 
-			funkcje które musi udostêpniaæ u¿ytkownikom, co system potrafi
-
-		Ograniczenia -> regu³y narzucone z góry:
-			- technologia
-			- bud¿et
-			- czas
-			- sposoby realizacji, wdro¿enia
+		Te punkty musz¹ byæ MIERZALNE
 
 		6. Wymagania jakoœciowe(pozafunkcjonalne):
 			- security - gwarancja odpornoœci na ataki z zewn¹trz
@@ -158,6 +160,38 @@ Wyk³ad 01b Wizja Systemu
 			- dostêpnoœæ - brak przerw w pracy
 			- wydajnoœæ
 			- interfejs u¿ytkownika - wygoda i intuicyjnoœæ obs³ugi
+
+			np. wydajnoœæ -> ma pozwoliæ na pracê 200 u¿ytkowników jednoczeœnie, 
+							bez widocznych opóŸnieñ, obs³u¿yæ 10 mln wolumentów, 
+							gdzie roczny przyrost to 1 mln
+
+		7. Ograniczenia -> regu³y narzucone z góry:
+			- technologia
+			- bud¿et
+			- czas
+			- sposoby realizacji, wdro¿enia
+			
+			W sumie to mo¿na je podzieliæ na 2 ga³êzie:
+
+			+ dotycz¹ce samego projektu i jego zasobów:
+				- deadline, bud¿et, sk³ad
+
+			+ dotycz¹ce produktu:
+				- dane w MS SQL, bo nie zachowamy kompatybilnoœci ze starymi systemami
+				 
+
+			np. ma byæ dostarczony do 31.05.2016
+			ma realizowaæ go zespó³ najwy¿ej 10 osobowy, o takim i takim sk³adzie specjalistów
+			nie mo¿e poch³on¹æ wiecej niz 100k PLN
+	}
+
+	#14
+	{
+		Skrót informacji o wizji systemu:
+
+		DLACZEGO? -> Cele
+		CO ma robiæ -> Wymagania
+		JAK to osi¹gniemy -> Rozwi¹zania
 	}
 
 
