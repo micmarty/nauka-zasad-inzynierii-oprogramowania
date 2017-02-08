@@ -68,10 +68,58 @@
 	{
 		Elementy procesu w metodyce -> obrazek za³¹cznik nr 100
 
-		Co		(activities)
-		Jak		(guidelines)
-		Kto		(roles)
-		Produkt	(artifact)
+		Co		 (activities)
+		Kto		 (roles)
+		Kiedy
+		Jak		 (guidelines)
+		Produkty (artifacts)
 
+	}
+
+	#6
+	{
+		Kategorie metodyk:
+		(2 ga³êzie)
+		+ wytwórcze
+			- koncentruj¹ siê na deweloperce(programowanie, testowanie)
+			- bazuj¹ na modelu wytwarzania lub ich kombinacji
+			- definiuj¹ jakie s¹ zadania, role, praktyki, produkty
+			- trochê zarz¹dzania mened¿erskiego
+				(
+					planowanie, 
+					kontrola jakoœci, 
+					zarz¹dzanie ryzykiem
+				)
+		+ zarz¹dzania
+			- typowo mened¿erski, zarz¹dzanie pe³n¹ gêb¹
+			- oderwane od deweloperki
+			- raczej uniwersalna, nie tylko do informatycznych projektów
+
+		Problem jest taki, ¿e czasem granice miêdzy tymi dwoma siê zacieraj¹
+	}
+
+	#7
+	{
+		Metodyki wytwarzania:
+		- zdyscyplinowane / sterowane planem
+			Opieraj¹ siê na planowaniu i zarz¹dzaniu
+			Nadaj¹ siê do du¿ych projektów
+			Mo¿liwoœæ adaptacji do w³asnych potrzeb(przykrajanie)
+			Wiêksza gwarancja jakoœci
+
+		- zwinne / lekkie
+			Nastawione na zmiany, elastycznoœæ
+			Nadaj¹ siê do ma³ych projektów i zespo³ów
+			Nie pasuj¹ do krytycznych/specjalistycznych projektów, ale mog¹ ewoluowaæ
+	}
+
+	#8
+	{
+		Teraz opisy metodyki wytwarzania -> zdyscyplinowanej
+		- RUP - Rational Unified Process
+				Bardzo rozbudowana, ale da siê j¹ przykrajaæ(tailoring)
+				Wytwarzanie jest iteracyjne 
+				Oparte o analizê ryzyka
+				Du¿o modeli wizualnych, narzêdzi i architektur
 	}
 }

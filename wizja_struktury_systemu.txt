@@ -1,4 +1,4 @@
-Wyk³ad 01b Wizja Systemu
+01b Wizja Systemu
 {
 	#2
 	{
