@@ -1,0 +1,124 @@
+13
+{
+	#2
+	{
+		G³owne obszary IO
+		!attachment130!
+	}
+
+	#3
+	{
+		Obszary -
+		
+		Proces pozwala posk³adaæ poszczególne obszary IO
+		w sesown¹ ca³oœæ
+		
+		Podejœcie "na ¿ywio³": cowboy coding, code & fix
+		Wtedy wyst¹pi¹ takie problemy jak:
+		- konflikty, nieporozumienia w pracy zespo³owej
+		- problemy z komunikacj¹ z klientem
+		- kijowa jakoœæ kodu i produktu	
+	}
+
+	#4
+	{
+		Modele vs Metodyki -> w nastepnym wyk³adzie jest opisane
+		modele -> ogólne, metodyki -> konkretne
+	}
+
+	Modele cyklu ¿ycia:
+	#5
+	{
+		Klasyczny model kaskadowy, waterfall:
+		
+		* Poszczególne etapy s¹ odseparowane i odzwierciedlaj¹ poszczególne
+			etapy obszary IO(ten obrazem z za³¹cznika, takie kó³ka w warstwach)
+
+		* W ka¿dym etapie wytwarzamy ca³y system
+
+		* Etapy s¹ sekwencyjnie(trzeba skonczyc poprzedni zeby isc do nastepnego)
+
+		* Jeœli popelni sie b³¹d trzeba wróciæ tam gdzie wyst¹pi³ i 
+			przejsc wszystkie posrednie etapy raz jeszcze
+
+
+			Zalety:
+			+ ³atwo skonstruowany/ prosty w t³umaczeniu
+			+ obejmuje wszystkie obszary IO, jest systematyczny
+			+ wyraŸnie definiuje etapy(mo¿na wprowadziæ milestony, by œledziæ postêpy)
+			+ mo¿na roz³o¿yæ pracê w czasie dla poszczególnych ról
+				(programista pracuje g³ównie w implementacji, a projektant przy projektowaniu)
+			+ jest oparty o standard IEEE
+
+			Wady/problemy:
+			- zak³ada uchwycenie ca³oœci ju¿ na pocz¹tku(absurd)
+			- zak³ada niezmienne wymagania
+			- dzia³aj¹cy soft powstaje na koñcu
+			- klient mo¿e zwalidowaæ/oceniæ produkt praktycznie dopiero na koñcu
+			- b³¹d/zmiana wymaga cofania siê i przechodzenia ponownego
+	}
+
+	#9-11
+	{
+		Modele nieklasyczne:
+
+		Powsta³ przez software crisis
+		Mo¿e byæ warty zastosowania:
+		- gdy mamy gwarancje niezmiennosci wymgan
+		- dobrze znamy ten temat/zagadanienie -> robilismy podobne projekty
+
+
+		Przyk³¹dowe modele:
+
+		+ Model V
+		!attachment103!
+
+		-----------------																						-----------------------		
+		| Planowanie	|																						|Testy akceptacyjne	  |
+		| (i analiza	|	<------------------------------------------------------------------------------>	|					  |
+		| biznesowa)	|																						-----------------------				
+		-----------------																												
+
+						-----------------															-------------------------
+						| Analiza		|	<------------------------------------------------>		|	Testy systemowe		|
+						-----------------															-------------------------
+
+
+								-----------------											-------------------------
+								| Projekt		|	<---------------------------------->	| Testy integracyjne	|
+								| architektury	|											-------------------------
+								-----------------
+
+										-----------------						---------------------
+										| Projekt		|						| Testy jednostkowe	|
+										| szczegó³owy	|	<---------------->	|					|
+										-----------------						---------------------
+
+														--------------------------
+														|	Implementacja		 |
+														--------------------------
+
+
+
+						POMIEDZY s¹ zabiegi PROJAKOSCIOWE: inspekcje, przegl¹dy, formalne zatwierdzenia!!!!!!
+
+		Zalety modelu V:
+		+ przenosi zalety klasycznego(czyli ³atwy, systematyczny)
+		+ ukierunkowany na wysok¹ jakoœæ, przez liczne zabiegi projakosciowe pomiedzy etapami
+		+ przez iloœæ testów jest niskie ryzyko krytycznych b³êdów
+
+		Wady:
+		- przenosi wady modelu klasycznego(zak³ada stabilne wymagania, nie lubi zmian, produkt na koncu)
+		- duzy narzut finansowy i czasowy przez testy
+		- duzo dokumentacji
+		- trzeba sie wracac przy zmianach + modyfikowac napisane testy
+
+
+	}
+
+	#12
+	{
+		Podejœcie iteracyjne
+		
+	}
+}
