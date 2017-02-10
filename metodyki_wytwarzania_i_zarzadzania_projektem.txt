@@ -254,4 +254,90 @@
 		- zrobienie harmonogramu(punkty kontrolne - Milestones, diagram Gantta czy PERT)
 
 	}
+
+	#25
+	{
+		opis zarzadzania kosztami
+		- identyfikacja posiadanych zasobów(ludzie, kasa, narzêdzia itd)
+		- oszacowanie kosztów + poœrednich wydatków
+		- nadzór bud¿etu, kontrola wydatków
+	}
+
+	#26
+	{
+		opis zarzadzania zespolem/ludŸmi
+		- motywacja
+		- organizacja struktury, hierarchi, komunikacji
+		- dobór ludzi na podstawie ich kompetencji, mocnych stron
+		- atmosfera
+		- ble ble ble ble ble
+	}
+
+	#27
+	{
+		opis zarzadzania komunikacj¹
+		- przygotowanie narzedzi: slack
+		- wymyslenie procedur, uprawnien
+		- raportowanie zadañ, obowiazkow, rezultatow pracy odpowiednim osobom
+		- dostarczanie informacji o podejmowanych decyzjach
+		- zglaszanie problemow np. prze³o¿onym
+	}
+
+	#28
+	{
+		opis zarzadzania konfiguracja
+		- nadzor kodu, przypadkow testowych, narzêdzi
+	}
+
+	#29
+	{
+		opis zarzadania jakoscia
+		- okreœlenie standardow
+		- przeprowadzanie audytów
+		- badanie wydajnosci
+		- przgl¹dy i inspekcje
+		- ogólnie QA
+	}
+
+	#30
+	{
+		opis zarzadzanie ryzykiem
+		- identyfikacja ryzyk -> niepo¿¹dane zdzarzenia z negatywnymi konsekwencjami
+		- szacowanie ryzyka
+		- przeciwdzia³anie
+		- nadzór
+	}
+
+	#31
+	{
+		PMBOK - Project Management Body of Knowledge
+		metodyka zwinna
+
+		przedstawia te obszary zarz¹dzania wy¿ej wspomniane
+		zady z nich jest opisywany jako:
+		- jakies artefakty wejœciowe
+		- stosowane narzêdzia i metody
+		- produkty wytworzone przez proces
+	}
+
+	#32 
+	{
+		PRINCE2 - taka metodyka, standard ustanowiony na projekty rz¹dowe UK
+
+		-definuje jaka jest struktura miedzy ludŸmi:
+			reprezentanci, konsultanci, kierownicy itd bleble
+
+		-duze znaczenie ma wizja biznesowa, planowania szczegolnie jakosci, kontrole z gory
+
+		-projekt jest dzielony na etapy i w ten sposob rozliczany
+
+		-du¿o dzia³añ kontrolnych i projakoœciowych + tona dokumentacji
+	}
+
+	#33
+	{
+		ITIL - swiadczenie uslug IT dla biznesu(wiec raczej utrzymanie)
+
+		!attachment102!
+	}
 }
