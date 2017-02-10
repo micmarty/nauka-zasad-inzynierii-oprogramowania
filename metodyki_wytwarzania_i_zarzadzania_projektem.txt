@@ -66,7 +66,9 @@
 
 	#5
 	{
-		Elementy procesu w metodyce -> obrazek za³¹cznik nr 100
+		Elementy procesu w metodyce -> obrazek 
+		
+		!attachment100!
 
 		Co		 (activities)
 		Kto		 (roles)
@@ -116,10 +118,140 @@
 	#8
 	{
 		Teraz opisy metodyki wytwarzania -> zdyscyplinowanej
+
 		- RUP - Rational Unified Process
 				Bardzo rozbudowana, ale da siê j¹ przykrajaæ(tailoring)
 				Wytwarzanie jest iteracyjne 
 				Oparte o analizê ryzyka
 				Du¿o modeli wizualnych, narzêdzi i architektur
+
+
+				Z czasem powsta³y odmiany tego RUPa ukierunkowane na inne typy
+				projektów/ do innych zastosowañ:
+
+				- Enterprise	Unified Process -> EUP
+				- Open			Unified Process -> OUP
+				- Agile			Unified Process -> AUP
+
+				(samog³oski)!!!!!!
+
+				¯eby dokroiæ sobiê odmianê RUP mo¿na skorzystaæ z
+				- Rational Method Composer
+				- Eclipse Process Framework
+
+
+		#DOESN'T REALLY MATTER
+		- MSF - Microsoft Solution Framework
+				
+				Nacisk na narzêdzia MS
+				Iteracyjne z cyklami spiralnymi
+
+		- PSP - Personal Software Process
+
+				Samodoskonalenie
+
+		- TSP - Team Software Process	
+				
+				Planowanie i koordynacja prac
+	}
+
+	#14
+	{
+		Teraz opisy metodyk zwinnych/agile
+
+		Przyk³ady tych metodyk:
+		+ Scurm
+		+ eXtreme Programming
+		+ Kanban
+		+ Feature Driven Development
+
+		Cechy wspólne dla wszystkich:
+		- dzia³aj¹ iteracyjnie, w ma³ych przyrostach
+		- nacisk na siln¹ wspó³pracê
+		- bliski kontakt z klientem i dostosowywanie produktu do jego potrzeb na bie¿¹co
+
+
+	}
+
+	#16
+	{
+		Agile != cowboycoding -> ba³agan czy brak celu
+
+		Wady/kompromisy w agile:
+
+		- nie prowadzimy dokumentacji, po prostu wspolpracujemy z klientem na biezaco
+			pokazujemy mu kolejne wersje softu
+
+		- nie robimy formalnego projektu systemu 
+			przez to bedzie go trudniej utrzymac, mozliwa restrukturyzacja
+
+		- nie ma rozdzielacza zadan/kierownika 
+			to czlonkowie zespolu maja wieksza samomotywacje i odpowiedzialnosc
+
+
+
+	}
+
+	#17
+	{
+		Najpopularniejsza spoœród Agile:
+
+		Scrum - opiera siê na sprintach
+
+		!attachment101!
+
+		Co dzieñ spotkania na kwadrans:
+		1. Co zrobili?
+		2. Jakie przeszkody napotkali?
+		3. Co zrobi¹?
+
+		Produkt wychodzi z koñcem sprintu
+
+		Product backlog - lista priorytetyzowana featurów od klienta
+		Sprint backlog - featury które zrealizuje sie w tym sprincie
+	}
+
+	#20
+	{
+		Pierwsza zwinna spopularyzowana:
+
+		Extreme Programming XP:
+		- te¿ krótkie iteracje
+		- TDD
+		- gra planistyczna -> negocjacje z klientem
+		- projekt musi byc jak najprostrszy
+		- nacisk na refaktoryzacjê
+	}
+
+	#22
+	{
+		Przyk³adowe obszary zarz¹dzania:
+
+		- udzia³owcami
+		- czasem
+		- wymaganiami
+		- jakoœci¹
+		- ryzykiem
+		- konfiguracj¹
+		- kosztami
+		- komunikacj¹
+	}
+
+	#23
+	{
+		opis zarz¹dzania udzia³owcami
+		- identyfikacja kim oni s¹
+		- utrzymywanie ich zaanga¿owania i dogadywanie sie
+		- ustalenie i weryfikacja us³ug
+		- zapobieganie scope creep
+	}
+
+	#24
+	{
+		opis zarzadzania czasem
+		- identyfikacja zadan i jak miedzy soba sie gryz¹
+		- oszacowanie ich czasu potrzebnego
+		- zrobienie harmonogramu(punkty kontrolne - Milestones, diagram Gantta czy PERT)
+
 	}
 }
