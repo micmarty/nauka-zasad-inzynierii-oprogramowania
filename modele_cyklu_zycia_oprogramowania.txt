@@ -151,7 +151,99 @@
 	#14
 	{
 		Model przyrostowy:
-
 		
+		To rodzaj podeœjcia iteracyjnego.
+		Po prostu celem kolejnych iteracji jest dodanie porcji funkcjonalnosci,
+		czyli tworzenie przyrostu
+
+
+		Algorytm:
+		1. Ustalenie zakresu i architektury systemu
+		
+		2. Specyfikacja (przyrostu)
+		3. Projekt i implementacja (przyrostu)
+		4. Testowanie i integracja (przyrostu)
+		5. Walidacja (i wdro¿enie -> jeœli to ostatni przyrost)
+		
+		if(skoñczone)
+			6. Ukoñczony system
+		else
+			6. Kolejny przyrost
+			goto 2.
+
+		!attachment105!
+
+		Ten model mozna odwzorowaæ na schemacie modelu KLASYCZNEGO
+		!attachment106!
+	}
+
+	#16
+	{
+		Przyrost a budowa systemu
+		W modelu klasyczym mamy 100% systemu ukoñczone w 60%
+		W modelu przyrostowym mamy 60% systemu ukoñczone w 100%
+		!attachment107!
+	}
+
+	#17
+	{
+		Ad #14 - model przyrostowy
+
+		Zalety:
+		+ zmiany s¹ ³atwiejszy do wprowadzenia
+		+ omijamy big bang problem
+		+ ci¹g³a mo¿liwoœæ poprawy projektu
+		+ pozwala lepiej oceniæ projekt, d³u¿ej dopieszcza siê elementy
+		+ na poziomie przyrostu mamy zawsze stabilosc wymagañ
+
+		+ klient nie musi dawac wszystkich ¿¹dañ od razu(wystarczy zarys)
+		+ ka¿dy przystost -> nowa funkcjonalnoœæ
+			(namacalna rzecz to przetestowania wraz z systemem ktory juz dziala)
+		+ wiêksze zaanga¿owanie u¿ytkowników w proces rozwoju
+
+
+		Wady:
+		- mo¿na go stosowaæ raczej tylko w systemach, które
+			da siê zdekomponowaæ na czêœci i podsystemy)
+		- d³u¿ej dochodzi siê do finalnego produktu(w porownaniu z bezb³êdnym klasycznym)
+		- mo¿e siê okazaæ, ¿e pocz¹tkawa analiza nie jest ju¿ wystarczaj¹ca w dalszych etapach
+	}
+
+	#18
+	{
+		Model prototypowy:
+
+		To te¿ podejœcie iteracyjne(tak samo jak przyrostowy)
+		
+		PROTOTYPY DO WYRZUCENIA:(I termin 2017)
+		- model papierowy -> bazuje na rysunkach interfejsu(jakieœ painty takie)
+		- model symulowany -> analityk odgrywa role ssytemu i mowi userowi co zrobilby system przy konkretnej akcji
+		- model programowy -> program napisany tylko do demka(prosty interfejs i podstawowa funkcjonalnosc)
+
+		inne modele(juz nie do wyrzucenia):
+		- model ewolucyjny -> jest to system docelowy wykonany czêœciowo. 
+								Zawiera juz w sobie podstawowe funkcjonalnoœci
+								Ale ten prototyp bedzie rozszerzany a¿
+								do pe³nej wersji systemu docelowego
+		
+		Pojêcie dodatkowe:
+			prototypowanie konstrukcji -> proof of concept
+
+
+		Zalety:
+		+ zwiekszenie zaangazowania udzia³owców w tworzeniu i podejmowaniu decyzji
+		+ lepsze dopasowanie systemu do potrzeb klienta(walidacja)
+		+ pozwala lepiej zrozumieæ potrzeby
+		+ poprawia cechy jakoœciowe:
+			- ³atwoœæ u¿ycia, ergonomia
+			- utrzymywalnoœæ, jakoœæ konstrukcji
+
+		Wady/problemy:
+		- budowa prototypu to dodatkowe koszty i czas
+			szczególnie jeœli prototyp bêdzie do wyrzucenia
+		- projektant mo¿e z przyzwyczajenia iœæ na ³atwizne i kopiowaæ elementy z prototypu
+			do systemu docelowego(co mo¿e zaburzyæ porz¹dane wymagania jakoœciowe)
+		- klient myœli, ¿e prototyp jest juz dzia³aj¹cym systemem i nie rozumie, czemu trzeba go porzuciæ
+			i zacz¹æ od nowa
 	}
 }
