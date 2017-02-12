@@ -102,23 +102,56 @@
 
 						POMIEDZY s¹ zabiegi PROJAKOSCIOWE: inspekcje, przegl¹dy, formalne zatwierdzenia!!!!!!
 
-		Zalety modelu V:
-		+ przenosi zalety klasycznego(czyli ³atwy, systematyczny)
-		+ ukierunkowany na wysok¹ jakoœæ, przez liczne zabiegi projakosciowe pomiedzy etapami
-		+ przez iloœæ testów jest niskie ryzyko krytycznych b³êdów
+			Zalety modelu V:
+			+ przenosi zalety klasycznego(czyli ³atwy, systematyczny)
+			+ ukierunkowany na wysok¹ jakoœæ, przez liczne zabiegi projakosciowe pomiedzy etapami
+			+ przez iloœæ testów jest niskie ryzyko krytycznych b³êdów
 
-		Wady:
-		- przenosi wady modelu klasycznego(zak³ada stabilne wymagania, nie lubi zmian, produkt na koncu)
-		- duzy narzut finansowy i czasowy przez testy
-		- duzo dokumentacji
-		- trzeba sie wracac przy zmianach + modyfikowac napisane testy
-
+			Wady:
+			- przenosi wady modelu klasycznego(zak³ada stabilne wymagania, nie lubi zmian, produkt na koncu)
+			- duzy narzut finansowy i czasowy przez testy
+			- duzo dokumentacji
+			- trzeba sie wracac przy zmianach + modyfikowac napisane testy
+		
+		(opisane poŸniej)
+		+ Model przyrostowy
+		+ Model prototypowy
+		+ Model spiralny
 
 	}
 
 	#12
 	{
 		Podejœcie iteracyjne
+		
+		- kilka iteracji, zamiast jednego przebiegu (np. w kaskadowym)
+		- ka¿da iteracja daje jak¹œ rozwiniêt¹ wersjê produktu
+		
+		Zalety:
+		+ feedback od klienta jest du¿o czêstszy
+		+ developerzy ucz¹ siê na b³êdach i lepiej rozumiej¹ problem(rozwijaj¹ funkcjonalnoœæ kilkukrotnie)
+		+ b³êdy z iteracji na iteracjê s¹ ³atane
+
+		W specyfikacji RUP wygl¹da tak:
+		!attachment104!
+	}
+
+	#13
+	{
+		dodawanie kolejnej porcji funkcjonalnoœci 
+			-> model przyrostowy
+
+		wizualizacja wymagañ, lepsze skminienie problemu 
+			-> model prototypowy
+
+		zaadresowanie/wykrycie i ominiêcie ryzyka 
+			-> model spiralny
+	}
+
+	#14
+	{
+		Model przyrostowy:
+
 		
 	}
 }
