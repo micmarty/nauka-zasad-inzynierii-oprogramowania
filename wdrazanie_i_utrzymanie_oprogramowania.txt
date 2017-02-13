@@ -1,0 +1,157 @@
+12 TODO ten dokument nadaje siê do reedycji, doprecyzowania i dokoñczenia
+{
+
+
+	#2
+	{
+		Wdro¿enie - ogó³ dzia³añ, którego celem jest doprowadzenie do 
+				zastosowania systemu w docelowym œrodowisku
+	}
+
+	#4
+	{
+		Aspekty wdro¿enia:
+		- informatyczny:
+			- wytworzenie i dostarczenie
+			- instalacja i uruchomienie
+			- poprawki i utrzymanie
+
+		- zarz¹dczy:
+			- planowanie migracji, wdro¿eñ
+			- synchronizacja klient <-> wytwórcy
+
+		- biznesowy:
+			- osi¹gniêcie korzysci finansowych
+			- osi¹gniêcie celów jakimi by³y wymagania
+			- wykorzystanie systemu w bran¿y IT na wiêksz¹ skalê
+
+		Schemat wdro¿enia:
+
+		Wytwarzanie ---odbiór----> Wdra¿anie ----start----> U¿ytkownanie
+
+		1. Wytwarzanie	-> prace projektowe na budow¹
+		2. Odbiór		-> akceptacja przez klienta produktu
+		3. Wdra¿anie	-> umo¿liwienie u¿ytkowania
+		4. Start		-> moment przerzucenia siê na nowy system
+		5. U¿ytkowanie	-> wykorzystanie biznesowe przez klienta
+	}
+
+	#7
+	{
+		Odbiór systemu
+		1- release		-> wydanie
+		2- alpha, beta	-> testy akceptacyjne
+		3- odniesienie do wymagañ i ustaleñ
+		4- formalna akceptacja(albo warunkowa) i gotowoœæ do wdro¿enia
+	}
+
+	#8
+	{
+		Start produktywny - go live
+
+		system jes stabilny, dostosowany
+		ma odpowiednie dane
+		jest zintegrowany z innymi
+		uzytkownicy wykonuja swoje zadania
+		s¹ zezwolenia formalne na korzystanie z niego
+	}
+	
+	#9
+	{
+		Wdro¿enie - elementy
+
+
+		zaplanowanie
+		przygotowanie
+		instalacja				
+		konfiguracja
+		kastomizacja
+
+		szkolenia					}	+	poprawki defektów
+		migracje danych				}	+	realiacja wymagañ
+		reorganizacja klienta		}	+	dopasowanie do œrodowiska
+									}	+	optymalizacje
+									}	+	testy
+
+
+
+		audyt/certyfikacja/zatwierdzenie formalne
+		start produktywny / wygaszenie stareg systemu
+	}
+
+	#10
+	{
+		Strategie wprowadzania systemu:
+		- bezpoœrednie
+		- równoleg³e
+		- pilotowane
+		- fazowe
+	}
+
+	#12
+	{
+		Utrzymanie - to konserwacja/ pielêgnacja. Wprowadzanie zmian po wdro¿eniu
+
+		Utrzymanie dzieli siê na sprzêt i oprogramowanie
+		+ sprzêt:
+			- kopmutery, serwery, stacje robocze
+			- urz¹dzenia dedykowane
+			- kompatybilnoœæ ze sprzêtem
+		+ oprogramowanie:
+			- licencje
+			- fixy
+	}
+
+	#14
+	{
+		Utrzymanie oprogramowania - OBSZARY DZIA£ANIA
+
+		- poprawianie b³êdów				-> corrective maintanance
+		- rozbudowa i udoskonalanie			-> perfective m.
+		- adaptacja do zmian œrodowiska		-> adaptive m.
+		- utrzymywanie zapobiegawcze,		-> preventive m. 
+			by zapewniæ mo¿liwoœæ rozwoju
+
+		CPAP ive - corrective, perfective, adaptive, preventive
+
+		Czynniki wp³ywu:
+		- znajomoœæ dziedziny problemu -> lepiej znasz -> mniej trudnoœci
+		- cechy softu:	
+			* jakoœæ modelu i projektu samego w sobie -> czy jest spójny
+			* jaka jest dokumentacja	-> jest dok³adna, czy beznadziejna
+			* z³o¿onoœæ i przejrzystoœæ kodu
+		- stabilnoœc personelu -> osoby ktore to pisaly czesto sa na wage z³ota
+		- srodowisko implementacji
+			
+
+		Problemy utrzymywania:
+		- dokumentacja sie dezaktualizuje
+		- przy pielegnacji dodawanie zmian pogarsza jakosc kodu
+		- nowe osoby wprowadzaj¹ zamêt
+		- utrzymanie przestarzalego srodowiska staje sie uci¹zliwe
+		- coraz mniej osob pracuje nad tym projektem
+
+		Krzywe utrzymymywania:
+		czasem warto zrobic system od nowa(poniesiemy koszt na poczatku, ale potem siê zwróci)
+
+	}
+
+	#26
+	{
+		Proces ewolucji oprogramowania:
+
+		1. Okreœlenie celów ewolucji
+		2. Zrozumienie oprogramowania
+		3. Definicja zakresu, plnu zmian, ryzyka
+		4. Analiza, projektowanie, implementacja
+		5. Testowanie regresywne, rewalidacja
+
+		Nie ma pielêgnacji, jest ci¹g³a ewolucja
+
+		OBSZARY PROBLEMÓW w procesie ewolucji oprogramowania:
+		1. Zrozumienie istniej¹cego oprogramowania
+		2. Analiza wp³ywu zmian
+		3. Testowanie regresywne
+	}
+
+}
