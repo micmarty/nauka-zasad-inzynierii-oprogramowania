@@ -347,5 +347,7 @@
 		np.
 		prototypowanie do doprecyzowania wymagañ a potem wio na przyrostowym
 		spiralny przy ryzyku a potem wio na komponentach
+
+
 	}
 }
