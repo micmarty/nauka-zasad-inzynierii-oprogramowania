@@ -246,4 +246,106 @@
 		- klient myœli, ¿e prototyp jest juz dzia³aj¹cym systemem i nie rozumie, czemu trzeba go porzuciæ
 			i zacz¹æ od nowa
 	}
+
+	#25
+	{
+		Model spiralny:
+
+		Jedna z pierwszych podjeœæ iteracyjnych, oparta na ryzyku
+
+		Planowanie | Analiza ryzyka
+				   |
+		---------------------------> rozmiar systemu, koszt
+		Ocena	   | Wytwarzanie
+				   |
+
+
+		spirala zaczyna sie od planowania, koñczy na ocenie
+
+
+		Podstawowe cechy:
+		- zmniejsza ryzyko
+		- cykliczne fazy wytwarzania, bior¹ pod uwagê ocenê uzytkownika i  walidacjê
+		- Najbardziej ogólny: miesci w sobie inne modele jako specjalne przypadki
+		- Przydatny dla projektów obarczonych DU¯YM RYZYKIEM
+
+		Pomaga nad¹¿aæ za konkurencj¹
+
+		Zalety:
+		+ minimalizujemy ryzyko, badamy i oceniamy jego wp³yw
+		+ jako, ¿e jest iteracyjny to elastyczny do zmian
+		+ szybko wykrywane i rozwi¹zane TRUDNE problemy i wyzwania
+
+		Wady:
+		- Skomplikowany do t³umaczenia
+		- duzy koszt zarz¹dzania ryzykiem
+		- duzy czas uzyskania rezultatu koñcowego
+		- przydatny w³aœciwie dla duzych organizacji i projektów
+
+	}	
+
+
+	#26
+	{
+		Koniec podstawowych modeli
+
+
+		NAJCZÊSTSZE PODEJŒCIE:
+
+		iteracyjne przyrostowo-ewolucyjne:
+			wydziela przyrosty(powi¹zane funkcje pakujemy w podsystem)
+			przyrosty podlegaj¹ ewolucji(na bazie feedbacku klienta)
+			kazda iteracja to przyrost i udoskonalanie obecnych rzeczy
+
+	}
+
+	#30
+	{
+		Inne modele
+
+
+		+ CBD - Component Based Development
+			Komponentowy model wytwarzania
+			Dla systemów korzystaj¹cych z gotowych komponentów(COTS - commercial of the shelf)
+			Nie robimy od nowa, tylko sk³adamy z klocków, ale wymagaj¹ one wyboru do potrzeb i dostosowania
+
+		+ Ponownej in¿ynierii(re-engineering)
+			Rozk³adamy istniej¹cy by móc stworzyæ nowy
+			Mo¿e nie byæ dokumentacji(analiza starego kodu lub dekompilacja jeœli go nie mamy)
+			
+			Dwa trójk¹ty prostok¹tne:
+			Wspinamy siê i schodzimy
+
+			Poziomy od do³u: Implementation, Design, Requirements, Conceptual
+
+		+ Przekszta³cenia formalne(transformational development)
+			Budowa reprezentacji systemu przy u¿yciu modeli matematycznych,
+			przekszta³canie do kolejnych form, a¿ do finalnego etapu jakim jest pisanie kodu
+
+			Stosowane w systemach krytycznych(w¹skie dziedziny raczej -> systemy czasu rzeczywistego itd)
+
+		+ MDD - Model Driven Development
+			Tez przekszta³cenia ale niekoniecznie formalne(matematyczne)
+
+			CIM - Computation Independent Model -> modelowanie biznesowe
+			PIM - Platform Independent Model -> abstrakcja biznesowa jako zestaw funkcjonalnoœci 
+			PSM - Platform Specific Model -> model architektoniczny, zale¿ny od platformy i technologii
+	}
+
+	#36
+	{
+		Wybór modelu powinien zale¿eæ od:
+		- stabilnoœci wymagañ
+		- œwiadomoœci udzia³owców,
+		- mo¿liwoœciach dekompozycji systemu
+		- u¿ywanie niepe³nego systemu
+		- itd.
+
+		Trzeba dobieraæ go wedle przedsiêwziêcia i specyfiki problemu
+		S¹ w koñcu abstrakcj¹, czasem siê ³¹cz¹
+		
+		np.
+		prototypowanie do doprecyzowania wymagañ a potem wio na przyrostowym
+		spiralny przy ryzyku a potem wio na komponentach
+	}
 }
